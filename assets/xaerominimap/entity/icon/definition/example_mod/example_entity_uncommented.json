@@ -1,0 +1,48 @@
+{
+	"variantIdBuilderMethod" : "xaero.common.minimap.render.radar.EntityIconDefinitions.buildVariantIdString", 
+
+	"variants" : {
+		"example_mod:textures/entity/example_entity/example_entity.png%HAPPY%YELLOW%5" : "model:1",
+		"default" : "model:0"
+	},
+	
+	"modelConfigs" : [
+		{
+			"baseScale" : 1.0,
+			"rotationY" : 0,
+			"rotationX" : 0,
+			"rotationZ" : 0,
+			"offsetX" : 0,
+			"offsetY" : 0,
+			"modelPartsFields" : [
+				"path.to.model.class.ExampleEntityModel;nose",
+				"path.to.model.class.ExampleEntityModel;field_123123",
+				"net.minecraft.client.renderer.entity.model.QuadrupedModel;headModel",
+				"path.to.model.class.ExampleEntityModel;spikes",
+				"path.to.model.class.ExampleEntityModel;ears[0,1]",
+				"net.minecraft.client.renderer.entity.model.ModelRenderer;children['hair','left_ear','right_ear']"
+			],
+			"modelMainPartFieldAliases" : [
+				"path.to.model.class.ExampleEntityModel;head",
+				"path.to.model.class.ExampleEntityModel;field_124124"
+			],
+			"modelRootPath" : [
+				[
+					"net.minecraft.client.render.entity.model.SlimeEntityModel;root",
+					"net.minecraft.class_609;field_27499"
+				]
+			],
+			"renderingFullModel" : false,
+			"modelPartsRotationReset" : true,
+			"layersAllowed" : true
+		},
+		{
+			"baseScale" : 0.5,
+			"offsetX" : 5,
+			"offsetY" : -5
+		},
+		{
+			"renderingFullModel" : true
+		}
+	]
+}

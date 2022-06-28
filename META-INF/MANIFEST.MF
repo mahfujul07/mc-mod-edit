@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Implementation-Title: Better PVP
+Implementation-Version: 22.9.3
+

@@ -1,0 +1,27 @@
+license = "All rights reserved"
+modLoader = "javafml"
+loaderVersion = "[33,)"
+
+[dependencies]
+
+	[[dependencies.xaerobetterpvp]]
+		versionRange = "[33.0,)"
+		side = "BOTH"
+		ordering = "NONE"
+		mandatory = true
+		modId = "forge"
+
+	[[dependencies.xaerobetterpvp]]
+		versionRange = "[1.16.2,1.16.5]"
+		side = "BOTH"
+		ordering = "NONE"
+		mandatory = true
+		modId = "minecraft"
+
+[[mods]]
+	displayName = "Better PVP Mod"
+	description = "This mod adds game features useful for pvp and survival into your Minecraft client."
+	version = "22.9.3"
+	modId = "xaerobetterpvp"
+	authors = "Xaero96"
+
